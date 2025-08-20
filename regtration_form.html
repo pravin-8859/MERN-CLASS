@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Orientation Registration</title>
+</head>
+
+<body>
+    <center style="background-color: antiquewhite; padding: 25px; border-radius: 10px; width: 60%;height: auto;">
+        <h2>Orientation Program Registration Form</h2>
+        <form action="" method="post" enctype="multipart/form-data">
+            <label for="fullName">Full Name:</label>
+            <br>
+            <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br><br>
+
+            <label for="phone">Phone Number:</label>
+            <br>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+            <br><br>
+
+            <label for="collegeId">College ID:</label>
+            <br>
+            <input type="text" id="collegeId" name="collegeId" placeholder="Enter your college ID" required>
+            <br><br>
+
+            <label for="department">Department:</label>
+            <br>
+            <select id="department" name="department" required>
+                <option value="">--Select Department--</option>
+                <option value="cse">Computer Science</option>
+                <option value="ece">Electronics</option>
+                <option value="mech">Mechanical</option>
+                <option value="civil">Civil</option>
+                <option value="bio">Biotechnology</option>
+            </select>
+            <br><br>
+
+            <label for="year">Year of Study:</label>
+            <br>
+            <select id="year" name="year" required>
+                <option value="">--Select Year--</option>
+                <option value="1">1st Year</option>
+                <option value="2">2nd Year</option>
+                <option value="3">3rd Year</option>
+                <option value="4">4th Year</option>
+            </select>
+            <br><br>
+
+            <label for="orientationDate">Preferred Orientation Date:</label>
+            <br>
+            <input type="date" id="orientationDate" name="orientationDate" required>
+            <br><br>
+
+            <label for="tshirtSize">T-Shirt Size:</label>
+            <br>
+            <select id="tshirtSize" name="tshirtSize" required>
+                <option value="">--Select Size--</option>
+                <option value="S">Small</option>
+                <option value="M">Medium</option>
+                <option value="L">Large</option>
+                <option value="XL">Extra Large</option>
+            </select>
+            <br><br>
+
+            <label for="photo">Upload Your Photo:</label>
+            <br>
+            <input type="file" id="photo" name="photo" accept="image/*" required>
+            <br><br>
+
+            <label for="comments">Any Comments or Questions:</label>
+            <br>
+            <textarea id="comments" name="comments" rows="4" cols="40" placeholder="Write here..."></textarea>
+            <br><br>
+
+            <button type="submit">Register</button>
+        </form>
+    </center>
+
+</body>
+
+</html>

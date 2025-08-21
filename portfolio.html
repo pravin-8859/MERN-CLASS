@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header
+        style="background-color: lightblue; padding: 20px;display: flex; ">
+        <nav>
+            <ul>
+                <li><a href="portfolio.html">HOME</a></li>
+                <li><a href="registration_form.html">ABOUT</a></li>
+                <li><a href="ifRAM.html">PROJECT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="resume.html">RESUME</a></li>
+                <li><a href="">LEETCODE SCORE</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main style="background-color: lightgray; padding: 20px;">
+        <h1>Welcome to My Portfolio</h1>
+        <p>This is a simple portfolio page showcasing my projects and skills.</p>
+        <section>
+            <h2>About Me</h2>
+            <p>I am a web developer with a passion for creating interactive and user-friendly websites.</p>
+        </section>
+        <section>
+            <h2>Projects</h2>
+            <p>Check out my projects on GitHub.</p>
+            <ul>
+                <li><a href="">Project 1</a></li>
+                <li><a href="">Project 2</a></li>
+                <li><a href="">Project 3</a></li>
+            </ul>
+        </section>
+        <section>
+            <h2>Contact</h2>
+            <p>If you would like to get in touch, please fill out the contact form on the contact page.</p>
+        </section>
+        <section>
+            <h2>Resume</h2>
+            <p>You can view my resume by clicking the link below.</p>
+            <a href="resume.html">View Resume</a>
+        </section>
+        <section>
+            <h2>LeetCode Score</h2>
+            <p>Check out my LeetCode profile for coding challenges and scores.</p>
+            <a href="">View LeetCode Profile</a>
+        </section>
+        <section>
+            <section>
+                <h2>contact</h2>
+                <p>If you have any questions or would like to collaborate, feel free to reach out!</p>
+                <form action="contact_form_handler.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <br>
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>
+        </section>
+        </section>
+        <section>
+            <h2>Registration Form</h2>
+            <form action="registration_handler.php" method="post" enctype="multipart/form-data">
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+                <br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <br>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                <br>
+
+                <label for="collegeId">College ID:</label>
+                <input type="text" id="collegeId" name="collegeId" placeholder="Enter your college ID" required>
+                <br>
+
+                <label for="department">Department:</label>
+                <select id="department" name="department" required>
+                    <option value="">--Select Department--</option>
+                    <option value="cse">Computer Science</option>
+                    <option value="ece">Electronics</option>
+                    <option value="mech">Mechanical</option>
+                    <option value="civil">Civil</option>
+                    <option value="bio">Biotechnology</option>
+                </select>
+                <br>
+
+                <label for="year">Year of Study:</label>
+                <select id="year" name="year" required>
+                    <option value="">--Select Year--</option>
+                    <option value="1">1st Year</option>
+                    <option value="2">2nd Year</option>
+                    <option value="3">3rd Year</option>
+                    <option value="4">4th Year</option>
+                </select>
+                <br>
+
+                <label for="orientationDate">Preferred Orientation Date:</label>
+                <input type="date" id="orientationDate" name="orientationDate" required>
+                <br>
+
+                <label for="tshirtSize">T-Shirt Size:</label>
+                <select id="tshirtSize" name="tshirtSize" required>
+                    <option value="">--Select Size--</option>
+                    <option value="S">Small</option>
+                    <option value="M">Medium</option>
+                    <option value="L">Large</option>
+                    <option value="XL">Extra Large</option>
+                </select>
+                <br>
+                <button type="submit">Submit Registration</button>
+            </form>
+        </section>
+        </section>
+        <section>
+            <h2>Video Project</h2>
+            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/hSBwq8yrXf0?si=kyDnWpw_Ago1LV4y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+        </section>
+        </section>
+    </main>
+    <footer style="background-color: beige; padding: 20px; text-align: center; border-top: 2px solid darkblue; border-radius: 10px; width: 100%; height: auto; margin-top: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); font-family: Arial, sans-serif; color: darkblue; font-size: 1em; font-weight: normal; text-transform: none; letter-spacing: normal; line-height: 1.5; text-decoration: none; transition: background-color 0.3s ease;">
+        <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+        <p>Follow me on <a href="">GitHub</a> and <a href="">LinkedIn</a>.</p>
+        <p>Contact: <a href="mailto">contact</a>
+        </p>
+        <p>Privacy Policy | Terms of Service</p>
+        <p>Last updated: October 2023</p>
+        <p>Designed by [Your Name]</p>
+        <p>Powered by HTML, CSS, and JavaScript</p>
+        <p>For inquiries, please email <a href="mailto"></a></p>
+        <p>Thank you for visiting my portfolio!</p>
+        
+       
+
+    </footer>
+</body>
+
+</html>

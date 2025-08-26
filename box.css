@@ -1,0 +1,44 @@
+#box1 {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    background-repeat: no-repeat;
+    background-image: url('https://static.wikia.nocookie.net/marvelcinematicuniverse/images/9/9d/Iron_Man_Infobox.jpg/revision/latest/thumbnail/width/360/height/450?cb=20240802142023');
+}
+
+#box2 {
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    background-repeat: no-repeat;
+    background-image: url('https://i.pinimg.com/736x/0c/c5/e2/0cc5e2a8fd8d7cd62089a8efa15d9713.jpg');
+}
+
+#box3 {
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    background-repeat: no-repeat;
+    background-image: url('https://upload.wikimedia.org/wikipedia/en/4/47/Iron_Man_%28circa_2018%29.png');
+}
+
+#box4 {
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+    /* \nd-image: url('<iframe width="560" height="315" src="https://www.youtube.com/embed/hSBwq8yrXf0?si=Fj7snXrtT15G2_lU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'); */
+}
+#ifram{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(173, 221, 18);
+    padding: 50%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    align-items: center;
+
+   
+    
+}

@@ -1,0 +1,30 @@
+/* * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.img{
+    background-color: royalblue;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+.box1 {
+    background-color: rgb(178, 191, 229);
+    width: 500px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 20px;
+
+} */

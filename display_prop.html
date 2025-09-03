@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Property</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+    .circle {
+        width: 100px;
+        height: 100px;
+        background-color: lightblue;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .circle1{
+        width: 100px;
+        height: 100px;
+        background-color: lightcoral;
+        border-radius: 50%;
+        left: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        position: absolute;
+         z-index: 2;
+    }
+
+</style>
+<body>
+    // Display Property blocks or inline elements
+    <div style="border: 1px solid black; padding: 10px; margin-bottom: 10px;">
+        This is a block-level element (div).
+    </div>
+    <span style="border: 1px solid black; padding: 10px;">
+        This is an inline element (span).
+    </span>
+    <br><br>
+    //relative units
+    <div style="border: 1px solid black; padding: 2em; margin-top: 10px;">
+        This div uses relative units (em) for padding.
+    </div>
+    <div style="border: 1px solid black; padding: 2rem; margin-top: 10px;">
+        This div uses relative units (rem) for padding.
+    </div>
+    <div style="border: 1px solid black; padding: 5vw; margin-top: 10px;">
+        This div uses relative units (vw) for padding.
+    </div>
+    <div style="border: 1px solid black; padding: 5vh; margin-top: 10px;">
+        This div uses relative units (vh) for padding.
+    </div>
+    <div style="border: 1px solid black; padding: 5vmin; margin-top: 10px;">
+        This div uses relative units (vmin) for padding.
+    </div>
+    <div style="border: 1px solid black; padding: 5vmax; margin-top: 10px;">
+        This div uses relative units (vmax) for padding.
+    </div>
+    //position property
+    <!-- <div style="border: 1px solid black; padding: 10px; margin-top: 10px; position: relative;">
+        This div is positioned relatively.
+        <div style="border: 1px solid red; padding: 5px; position: absolute; top: 20px; left: 20px;">
+            This div is positioned absolutely within the relative div.
+        </div>
+    </div>
+    <div style="border: 1px solid black; padding: 10px; margin-top: 10px; position: fixed; bottom: 10px; right: 10px; background-color: lightgray;">
+        This div is positioned fixed at the bottom-right corner of the viewport.
+    </div> -->
+    //z-index property
+    <!-- <div style="border: 1px solid black; padding: 10px; margin-top: 10px; position: relative; z-index: 1; background-color: lightblue;">
+        This div has a z-index of 1.
+        <div style="border: 1px solid red; padding: 5px; position: absolute; top: 20px; left: 20px; z-index: 2; background-color: lightcoral;">
+            This div has a z-index of 2 and overlaps the blue div.
+        </div>
+    </div> -->
+
+
+    <div class="circle1">circle1</div>
+    <div class="circle">circle2</div>
+    <div class="circle">circle3</div>
+    <div class="circle">circle4</div>
+    <div class="circle">circle5</div>
+    <div class="circle">circle6</div>
+
+
+//3tag header main footer
+//navbar with ul li
+//form with input button select textarea
+//
+
+
+</body>
+</html>
